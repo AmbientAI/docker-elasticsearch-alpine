@@ -2,7 +2,7 @@
 
 # docker-elasticsearch-alpine
 
-[![CircleCI](https://circleci.com/gh/blacktop/docker-elasticsearch-alpine.png?style=shield)](https://circleci.com/gh/blacktop/docker-elasticsearch-alpine) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/blacktop/elasticsearch.svg)](https://hub.docker.com/r/blacktop/elasticsearch/) [![Docker Pulls](https://img.shields.io/docker/pulls/blacktop/elasticsearch.svg)](https://hub.docker.com/r/blacktop/elasticsearch/) [![Docker Image](https://img.shields.io/badge/docker%20image-294MB-blue.svg)](https://hub.docker.com/r/blacktop/elasticsearch/)
+[![Publish Docker Image](https://github.com/blacktop/docker-elasticsearch-alpine/actions/workflows/docker-image.yml/badge.svg)](https://github.com/blacktop/docker-elasticsearch-alpine/actions/workflows/docker-image.yml) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/blacktop/elasticsearch.svg)](https://hub.docker.com/r/blacktop/elasticsearch/) [![Docker Pulls](https://img.shields.io/docker/pulls/blacktop/elasticsearch.svg)](https://hub.docker.com/r/blacktop/elasticsearch/) [![Docker Image](https://img.shields.io/badge/docker%20image-447MB-blue.svg)](https://hub.docker.com/r/blacktop/elasticsearch/)
 
 Alpine Linux based [Elasticsearch](https://www.elastic.co/products/elasticsearch) Docker Image
 
@@ -23,20 +23,21 @@ Alpine Linux based [Elasticsearch](https://www.elastic.co/products/elasticsearch
 
 Compare Image Sizes:
 
-* official elasticsearch = 807 MB
-* blacktop/elasticsearch = 289 MB
+* official elasticsearch = 791.6 MB
+* blacktop/elasticsearch = 447.28 MB
 
 **blacktop version is 518 MB smaller !**
 
 ## Dependencies
 
-* [alpine:3.10](https://hub.docker.com/_/alpine/)
+* [alpine:3.14](https://hub.docker.com/_/alpine/)
 
 ## Image Tags
 
 ``` bash
 REPOSITORY               TAG                 SIZE
-blacktop/elasticsearch   latest              294MB
+blacktop/elasticsearch   latest              447MB
+blacktop/elasticsearch   7.15                447MB
 blacktop/elasticsearch   7.10                294MB
 blacktop/elasticsearch   7.9                 297MB
 blacktop/elasticsearch   7.8                 296MB
@@ -102,5 +103,5 @@ Heavily (if not entirely) influenced by https://github.com/docker-library/elasti
 
 ## License
 
-MIT Copyright (c) 2016-2020 **blacktop**
+MIT Copyright (c) 2016-2021 **blacktop**
 
